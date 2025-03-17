@@ -1,6 +1,6 @@
 # closing_auction
 
-This project is an implementation of a high-performance TSX Market-On-Close (MOC) auction system in Rust. The system supports real-time order matching, imbalance handling, and auction price determination, optimized for low latency and high throughput using efficient data structures and parallel processing.
+This project is an implementation of a high-performance closing auction simualtor in Rust. The system supports real-time order matching, imbalance handling, and auction price determination, optimized for low latency and high throughput using efficient data structures and parallel processing.
 
 ## Features
 
