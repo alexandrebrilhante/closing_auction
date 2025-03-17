@@ -26,17 +26,7 @@ This project is an implementation of a high-performance closing auction simualto
 5. **Auction Timing and Phases**
    - Implementation of Order Entry Period, Imbalance Period, Auction Execution, and Post-Auction Period.
 
-6. **Performance and Data Structures**
-   - Use of high-performance data structures like `BTreeMap` and `SkipList`.
-   - Use of `Arc` and `RwLock` for thread-safe access to shared data.
-   - Parallel processing using `tokio` or `rayon`.
-
-7. **Fairness and Transparency**
-   - Fair price formation.
-   - Real-time order and imbalance data for all participants.
-   - Logging and monitoring of auction performance and order execution quality.
-
-8. **Testing and Error Handling**
+7. **Testing and Error Handling**
    - Comprehensive unit and integration tests.
    - Recovery from partial failures.
    - Handling of edge cases such as large order imbalances, network delays, and data consistency issues.
